@@ -1,0 +1,362 @@
+"""Diplomarbeit
+Clinical application of diagnostic scores in patients with heart failure and preserved ejection fraction
+
+zur Erlangung des akademischen Grades
+Doktor(in) der gesamten Heilkunde (Dr.med.univ.)
+an der
+Medizinischen Universität Wien
+ausgeführt am
+Institut / Universitätsklinik für Innere Medizin II
+
+unter der Anleitung von
+Priv.-Doz.in Dr.in Roza Badr Eslam, MU
+Dr. med. univ. Franz Duca, PhD
+
+eingereicht von
+Johannes Schönauer
+01542278
+
+
+_______________________	_______________________
+Ort, Datum	Unterschrift (Studierender)
+ 
+Table of Contents
+1.	Introduction	- 3 -
+1.1.	Definition	- 3 -
+1.2.	Classification	- 4 -
+1.2.1.	Left ventricular ejection fraction	- 4 -
+1.2.2.	Course of disease	- 4 -
+1.2.3.	Symptomatic severity	- 5 -
+1.3.	Epidemiology	- 7 -
+1.3.1.	General epidemiology	- 7 -
+1.3.2.	Current prevalence of heart failure	- 7 -
+1.3.3.	Trends in prevalence of heart failure	- 7 -
+1.3.4.	Current prevalence of heart failure with preserved ejection fraction	- 8 -
+1.3.5.	Trends in prevalence of heart failure with preserved ejection fraction	- 8 -
+1.3.6.	Current incidence of heart failure	- 9 -
+1.3.7.	Trends in incidence of heart failure	- 10 -
+1.3.8.	Trends in incidence of heart failure with preserved ejection fraction	- 10 -
+1.3.9.	Age and sex	- 10 -
+1.3.10.	Morbidity/Mortality	- 11 -
+1.4.	Aetiology	- 13 -
+1.5.	Pathophysiology/Pathogenesis of heart failure with preserved ejection fraction	- 15 -
+1.5.1.	Endothelial dysfunction and systemic inflammation	- 15 -
+1.5.2.	Left ventricular diastolic dysfunction	- 16 -
+1.5.3.	Left ventricular systolic dysfunction	- 17 -
+1.5.4.	Left atrial dysfunction	- 17 -
+1.5.5.	Pulmonary hypertension and right ventricular dysfunction	- 18 -
+1.5.6.	Chronotropic reserve and ventricular dyssynchrony	- 18 -
+1.5.7.	Ventriculo-arterial coupling	- 18 -
+1.5.8.	Plasma volume expansion	- 19 -
+1.6.	Therapy	- 20 -
+1.7.	Diagnosis	- 23 -
+1.8.	Scores	- 25 -
+2.	References	- 28 -
+3.	Table of figures	- 37 -
+
+ 
+1.	Introduction
+
+1.1.	Definition
+
+The current definition of heart failure (HF) as proposed by members of the Heart Failure Society of America (HFSA), the Heart Failure Association (HFA) of the European Society of Cardiology (ESC) and the Japanese Heart Failure Society (JHFS) in 2020 describes HF as “a clinical syndrome with symptoms and/or signs caused by a structural and/or functional cardiac abnormality and corroborated by elevated natriuretic peptide levels and/or objective evidence of pulmonary or systemic congestion.” Possible symptoms and signs are displayed in TABLE 1 , but neither are specific for HF and may be completely absent at rest and are only present with exertion. [1], [2]
+or alternatively: 
+ 
+1.2.	Classification
+
+While several classifications for HF exist, the most frequently applied is subcategorisation according to left ventricular systolic function:
+1.2.1.	 Left ventricular ejection fraction
+
+HF is categorised by the ESC into three subgroups distinguished by left ventricular ejection fraction (LVEF): [2]
+•	HF with reduced ejection fraction (HFrEF):	LVEF < 40%
+•	HF with mildly reduced ejection fraction (HFmrEF): 	LVEF 40-49%
+•	HF with preserved ejection fraction (HFpEF): 	LVEF ≥ 50 %
+These LVEF-cut-off values differ slightly between international guidelines and definitions.[3] They were chosen arbitrarily and varied over time, but by now this classification is firmly embedded in literature. Nevertheless HF is not a categorical disease and there are phenotypical overlaps between LVEF-subdivisions. [3], [4], [5]
+This thesis has its main focus on HFpEF, but in many places HFrEF will be used as a reference and for comparison. HFmrEF, which is sometimes called HF with mid-range ejection fraction or HF with borderline ejection fraction (HFbEF), will mostly be omitted, as this is a relatively recent classification, with less data available than for HFpEF and HFrEF. [6]
+HFpEF can be diagnosed in the presence of: [2]
+•	Symptoms and signs of HF
+•	LVEF ≥ 50%
+•	Objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised LV filling pressures, including raised natriuretic peptides (NPs).
+
+1.2.2.	 Course of disease
+
+HF can be divided by its temporal progression into chronic heart failure (CHF) and acute heart failure (AHF). A gradual onset of symptoms or an established diagnosis of HF is described as CHF. An episode of worsened CHF, either over time or suddenly, can be described as ‘decompensated’ HF, or AHF. [2]
+
+1.2.3.	 Symptomatic severity
+
+The most widely used classification for describing symptom severity in HF patients is the New York Heart Association (NYHA) class. It is a functional assessment with four stages, which has been used clinically for almost a century. [7]
+Or:
+ 
+Or:
+ 
+1.3.	Epidemiology
+
+1.3.1.	 General epidemiology
+
+Collecting reliable epidemiological data for international comparisons proves difficult because of differences in national systematic reporting of standardized HF statistics. This is partly a result of a lacking universal definition of HF. Furthermore, available epidemiological data significantly varies across countries and regions, with overall age-standardised prevalence being higher in Central Europe, North Africa, and the Middle East, and lower in Eastern Europe and Southeast Asia. Nonetheless, it is safe to say, that HF is a global pandemic, bearing a significant burden on the population and the health care system, with a current lifetime risk of 20-45% in the United States. [4], [8], [9], [10]
+
+1.3.2.	 Current prevalence of heart failure
+
+In 2018 and 2019, the Heart Failure Association (HFA) ATLAS Task Force collected epidemiological data in 42 ESC member countries using the HFA ATLAS survey. This study showed that the median prevalence of HF per 1000 people in the general population of these countries was 17.20, or roughly 1.7%. According to the National Health and Nutrition Examination Survey (NHANES), in the US, there were about 6.7 million Americans over the age of 20 who had HF between 2017 and 2020. This equals a prevalence of 2.3%. [11], [12], [13]
+
+1.3.3.	 Trends in prevalence of heart failure
+
+A study carried out on a representative group of UK-citizens from 2002 to 2014, published in 2017, displayed a growth in absolute HF cases by about 23%. This was attributed by the authors to an increase in population size and age. Another important influence may be better HF survival rates as a result of improvements in medical treatment. These findings are also supported by a Portuguese study from Fonseca et al. in which the authors predict a 30% rise in HF prevalence by 2035. Furthermore, the American Heart Association (AHA) projects HF prevalence to rise by 46% from 2012 to 2030 (from 2.4% to 3.0% of the total population). [12], [14], [15]
+
+1.3.4.	 Current prevalence of heart failure with preserved ejection fraction
+
+Because of a lack of EF in many epidemiological studies, there is even less data on the prevalence of specific HF subgroups. The global congestive heart failure (G-CHF) registry aims to close this gap in knowledge. It is a multi-center, prospective cohort study of adult patients in 40 countries from 8 major geographic regions of the world with ongoing recruitment. Thus far, results show that about 54% of the enrolled patients are classified as HFrEF, followed by HFpEF with 24% and HFmrEF with about 21%. Therefore, it can be said, that currently approximately half of all HF cases are made up by HFrEF, while the other half consists of both HFpEF and HFmrEF. [2], [8], [16]
+
+1.3.5.	 Trends in prevalence of heart failure with preserved ejection fraction
+
+Due to the lack of assessment of LVEF in most publications of the 20th century, it is hard to accurately assess a temporal trend in HFpEF prevalence over a longer period of time. [8], [12]
+A study from the United States published in 2006 observed all admittances being hospitalised with decompensated HF between 1987 and 2001 at the Mayo Clinic, resulting in a number of about 4600 patients with data on LVEF available. The research team reported a shift in the fraction of patients with HFpEF, from 38% in the first five years to 54% in the last five years. This increase was attributed to a higher number of admitted patients for HFpEF while the number of HFrEF patients did not see any significant changes. Another publication showed an increase of the proportion of HFpEF among a study population of about 110 600 HF hospitalisations from 33% in 2005 to 39% in 2010. [17], [18]
+Because of the apparent upward trend of the quantity of individuals suffering from HFpEF, it already is the most common form of HF in many study populations and the reason for the rising prevalence of HF in general. [19]
+
+
+1.3.6.	 Current incidence of heart failure
+
+Across 12 ESC countries, HF has a mean annual incidence of 3.20 per 1000 person-years. [4]
+A multi-center cohort study of 6 US communities showed a similar HF incidence rate of 3.1 per 1000 person-years. [20]
+
+1.3.7.	 Trends in incidence of heart failure
+
+The recent HF incidence was shown to be relatively consistent or even declining, presumably because of improved medical treatment and better management of cardiovascular diseases (CVD) like coronary syndrome and myocardial infarctions. [8], [15], [19], [21]
+
+1.3.8.	 Trends in incidence of heart failure with preserved ejection fraction
+
+A study from the United States, published in 2018, underlines the declining overall HF incidence, while also showing a reduction in HFrEF mostly in men, yet a rise in HFpEF incidence in both sexes. Meanwhile, another study form 2015 reported declining incidence for HFrEF and HFpEF, although with a greater rate of reduction in HFrEF. [21], [22]
+
+1.3.9.	 Age and sex
+
+In a Spanish population, analysed in the PRICE study, overall HF prevalence rose from 1.3% in 45- to 55-year-old patients, to 16.1% at over 75 years of age. Likewise, age is an important risk factor for HF incidence, especially for HFpEF. [4], [23], [24]
+Overall HF prevalence in the population under 70 years was shown to be higher in men. In women, the prevalence keeps on rising and surpasses the prevalence for men in the 70-79 old age group. A study from the United States did find sex not to be a predicting factor for HFpEF, although men were shown to have an increased relative risk for HFrEF. While HFpEF incidence seems to keep increasing with age in both sexes, HFrEF incidence appears to be declining, with a greater rate of reduction in women then in men. [22], [24], [25]
+Besides age and sex, important risk factors include arterial hypertension, obesity, coronary artery disease, smoking status, LV hypertrophy, left bundle branch block and diabetes mellitus. [24] 
+
+1.3.10.	Morbidity/Mortality
+
+Ischaemic heart disease, which is often times followed by HF, account to about 16% of the world’s total deaths, making it the leading cause of death worldwide. [26]
+// Ja genau, der Satz wäre gedacht, um die HF Daten in Relation setzen
+Patients from the US, which were previously being hospitalised for AHF have a 5-year mortality rate of about 75% which is independent of LVEF. The median survival decreased with advancing age, being significantly lower than the life expectancy of the general population across all age groups. [27] 
+In Europe, the all-cause 1-year mortality for AHF is about 24%, for CHF it is around 6.5%. [28]
+There are some contrary study results concerning the difference in mortality between HFrEF and HFpEF. A large meta-analysis from 2012, involving papers from all over the world, found no significant difference between HFpEF and HFrEF overall survival. [29]
+Even though HFpEF and HFrEF have a similar all-cause mortality, the rate of deaths attributed to CVD was significantly higher in HFrEF patients with about 66%, in contrast to HFpEF patients with about 52,5%. [27], [29], [30]
+For the last few decades, there has been a steady, but lately less steep, increase in survival of CHF. This is mostly attributed to an all-cause mortality reduction in patients under the age of 80 years. CVD associated deaths went down across all age groups, the decrease being greater among younger patients in comparison to older age groups. In the elderly CHF patients, there has been an increase in non-cardiovascular mortality. [31], [32]
+HF accounts for many hospitalisations, with a one-year rehospitalisation rate of 28,2%, accumulating to 80,4% by five years. Less than 50% of hospitalisations are directly associated to HF or a CV reason, highlighting the importance of co-morbidities in the course of the disease. The risk for hospitalisation due to a CV reason is higher in HFrEF than in HFpEF. Over the last decades, there has been a slight increase in HFpEF readmission, mainly driven by non-CV related and non-HF related reasons. [27], [30], [32], [33]
+ 
+1.4.	Aetiology
+
+HF is a multifactorial clinical syndrome with a large pathophysiological heterogeneity. In many cases, it is not possible to attribute the origin of HF to a single aetiology, as its development can be triggered and /* /or? */ facilitated by the interaction of a wide range of risk factors and/or comorbidities. This interplay is of especially high importance in HFpEF. [2], [4], [34], [35]
+There are many known risk factors, which can facilitate the development of HF. The most prominent of these are: a sedentary life-style, cigarette smoking, obesity, excessive alcohol intake, influenza, microbes, cardiotoxic drugs, chest radiation, hypertension, dyslipidaemia, diabetes mellitus, coronary artery disease, previous myocardial infarctions, LV hypertrophy, left bundle branch block, chronic kidney disease and ageing. [2], [24], [36]
+// Häufigkeiten
+Among the most important identified single aetiologies for overall HF are ischaemic heart disease (IHD) and ischemic cardiomyopathy, hypertensive heart disease, chronic obstructive pulmonary disease, valvular and rheumatic heart disease, idiopathic dilated cardiomyopathy, chagas disease and alcoholic cardiomyopathy. [4], [10], [30], [37], [38]
+Percentages of aetiologies of HF vary between patient populations of different biological sex, geographical location, and age-group. Additionally, the underlying causes between HF subgroups, especially between HFpEF and HFrEF, differ as well, the most apparent divergence being a significantly higher association of HFrEF with IHD. [10], [39]
+Furthermore, the development of HFpEF is related to, and can be caused by the presence of multiple co-morbidities. The most important co-morbidities in this regard are obesity, hypertension, diabetes mellitus, chronic obstructive pulmonary disease, anaemia, chronic kidney disease, and all of their resulting physiological changes and diseases, like for example atrial fibrillation (AF). [36], [40]
+ 
+1.5.	Pathophysiology/Pathogenesis of heart failure with preserved ejection fraction
+
+There are multiple pathological pathways and processes working together to cause the complex syndrome of HFpEF. The subsequent section outlines the most important of these mechanisms.
+bissl unklar was du meinst – ich glaub du willst sagen, dass viele pathophysiologische Mechanismen bei der HFpEF eine Rolle spielen oder?
+// genau, ja
+
+1.5.1.	 Endothelial dysfunction and systemic inflammation
+
+On account of multiple influences (most importantly comorbidities like diabetes and hypertension) and cardiovascular risk factors, a state of low-grade systemic inflammation emerges. This inflammation leads to changes in vascular homeostasis and ultimately to endothelial dysfunction. Nitric oxide (NO) availability declines, among other things, due to an increase in reactive oxygen species.
+The decreased NO/cyclic guanosine monophosphate (cGMP)/phosphokinase G (PKG)-pathway signalling causes structural and functional changes in cardiomyocytes and cardiac fibroblasts. Additionally, these changes induce neurohormonal upregulation, leading to more oxidative stress and therefore a vicious cycle. Additionally, the neurohormonal upregulation stimulates collagen synthesis.
+In the periphery, this inflammatory state affects and disrupts many different organ systems through soluble and circulating pro-inflammatory mediators. Among these changes are, for example, an impaired skeletal and respiratory muscle function and muscular atrophy, glomerular and interstitial kidney injuries, and cardiac liver cirrhosis. In part, these can be attributed to an impaired autonomic regulation of blood flow, impaired O2 extraction or issues with macro- or micro-vascular perfusion. [41], [42], [43], [44], [45]
+
+1.5.2.	 Left ventricular diastolic dysfunction
+
+One of the most important and characteristic pathomechanisms of HFpEF is diastolic dysfunction. In patients affected by HFpEF, the left ventricle is not able to achieve a sufficient end diastolic volume at adequate filling pressures. This may occur either at rest or solely with exertion.
+The main two variables influencing the diastolic pressure-volume relationship (in absence of endo- and pericardial disease) are:
+•	relaxation of the left ventricle and
+•	passive chamber stiffness.
+Left ventricular relaxation is affected by the cross-bridge detachment between the actin and myosin filaments and sarcoplasmic reticular calcium (Ca2+) reuptake. This may be due to a deficit in myocardial energy reserve and is enhanced by a dysregulation of NO.
+Left ventricular passive stiffness may raise because of a sarcomeric protein in cardiomyocytes referred to as titin, which undergoes a change in its isoform-expression ratio and phosphorylation state.
+Apart from changes in titin, stiffness may increase due to an increase in extracellular matrix stiffness caused by changes in collagen properties. The changes are induced by, among other factors, neurohormonal upregulation. [4], [36], [46], [47], [48], [49], [50]
+
+1.5.3.	 Left ventricular systolic dysfunction
+
+Even though LVEF is by definition preserved in HFpEF, in many cases, LV systolic function is reduced, nonetheless. While the measurement of LVEF has some favourable properties, there is a limited significance to it, due to being a very unspecific value. LVEF can be influenced by many variables like for example afterload, interobserver variability, or chamber remodelling. Therefore, it is not possible to rule out an impaired systolic function via assessment of LVEF alone.
+Often times, these systolic limitations only occur during exercise, because of the ventricle not being able to enhance its contractility adequately, resulting in a subnormal increase in cardiac output. [4], [47], [51]
+
+1.5.4.	 Left atrial dysfunction
+
+As LV filling becomes impaired in HFpEF patients, the supportive function of the left atrium (LA) rises in importance.
+Especially in the early stages of HFpEF, the LV starts to rely more on active contraction of the LA to maintain a sufficient end diastolic volume. On account of continuous elevated LV diastolic pressures, the LA dilates, undergoes remodelling, and loses most of its contractile capabilities. Atrial dilation is one of the main causes of AF, a poorly tolerated condition in HFpEF patients.
+Furthermore, compliance of the left atrium declines, reducing its ability to gather blood from the pulmonary veins, leading to an increased backlog. This results in higher pressures in the pulmonary blood circulation. [4], [47], [52]
+
+1.5.5.	 Pulmonary hypertension and right ventricular dysfunction
+
+LV diastolic dysfunction, combined with a reduced LA compliance lead to pulmonary venous congestion, which in turn leads to secondary pulmonary hypertension. Pulmonary hypertension is a common condition in HFpEF patients, with reported numbers varying between 40% and 80%, depending on the study population. Most often HFpEF is associated with isolated post-capillary pulmonary hypertension, but there are also overlaps of combined post- and pre-capillary pulmonary hypertension.
+Furthermore, pulmonary vasodilation in response to exercise is frequently impaired, contributing to reduced exercise capability.
+Due to causing an increase in right ventricular (RV) afterload, pulmonary hypertension is associated with a higher prevalence of right heart diseases. RV dysfunction is present in about a third of the HFpEF population. [4], [36], [47], [48], [53]
+
+1.5.6.	 Chronotropic reserve and ventricular dyssynchrony
+
+Patients suffering from HFpEF lack the ability to increase cardiac output by augmenting stroke volume due to limited LV systolic and diastolic function. As cardiac output is the product of stroke volume and HR, significance of HR augmentation therefore becomes more important at exertion.
+Even though the rise in plasma catecholamine levels at exercise in HFpEF patients is unaltered in comparison to healthy subjects, the response in HR is decreased. This is likely due to beta-adrenoceptor desensitisation.
+Additionally a temporal dyssynchrony between the both ventricles contributes to a earlier and slower pressure fall in the diastole. [4], [36], [45], [47]
+
+1.5.7.	 Ventriculo-arterial coupling
+
+To ensure an optimal blood-transfer between the LV and the aorta, the heart and the vessels need to operate together efficiently, especially in response to exercise. A way to observe this interaction is by investigating the ventricular-arterial interaction, which is the ratio of LV end-systolic elastance (Ees) to effective arterial elastance (Ea).
+Ees is influenced by passive myocardial stiffening and chamber geometry. Ea is defined as the ratio of LV end-systolic pressure and stroke volume and can be viewed as an estimation of afterload.
+In healthy subjects, Ees/Ea decreases during stress, due to a greater increase in Ees, leading to an increase in LVEF. The combination of a dysfunctional vasorelaxation and an impaired contractile reserve in the LV in HFpEF patients leads to a missing decrease in Ees/Ea and therefore to a reduced exercise capability.
+The reduction in elastance in the cardiovascular system additionally contributes to considerable rises in blood pressure in response to small changes in preload and fluid status. [51], [54], [55], [56], [57], [58]
+
+1.5.8.	 Plasma volume expansion
+
+Due to changes in multiple physiological processes, such as a chronic elevation of plasma catecholamine levels, HFpEF patients tend to have an increased blood plasma volume. As the standard HF treatment includes the use of diuretics, this is not always easily observable.
+This plasma volume expansion may lead to increased filling pressures in the heart and the lungs, and an increased cardiac workload. Therefore, it leads to even more cardiovascular distress and an overall worsening of the syndrome.
+Studies have found, that volume overload plays an especially important role in obese patients with HFpEF. [47], [53], [59], [60]
+ 
+1.6.	Therapy
+
+It has been shown that there is no significant difference in outcome between HFpEF and HFrEF. By now, there are multiple treatment options available for HFrEF, showing statistically significant benefits regarding mortality and morbidity. For patients suffering from HFpEF, the situation remains more dire: most likely mainly due to the differences in the driving pathophysiologic processes in between the HFpEF syndrome and between HFpEF and HFrEF, HFpEF does not respond to the same treatments that are efficacious in HFrEF. [4], [31], [61], [62]
+Up until 2021, the management of HFpEF without a clear and distinct aetiology consisted mainly of treating co-morbidities, alleviating symptoms and signs, and the effective treatment in cases of decompensation. Both the “2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure” and the “2022 AHA/ACC/HFSA Guideline for Management of Heart Failure” explicitly recommend the careful use of diuretics in all HFpEF cases to reduce volume overload in case of congestion, regardless of co-morbidities. The efficacious treatment of present hypertension is listed as a high priority as well. [2], [47], [53], [63]
+There have been many papers published on phase III drug trials in HFpEF, but, as can be inferred from table 120398, non of these studies before 2021 have achieved to meet their respective primary endpoint/endpoints. [2]
+// SUPPLEMENTARY DATA CITATION?
+
+In late 2021, studies investigating the effect of the SGLT-2-Inhibitor Empagliflozin on HF patients across the whole LVEF spectrum, were conducted. The “EMPEROR-Preserved” trial showed a statistically significant reduction in both the time to first HF hospitalisation, as well as the total hospitalisations (first and recurrent) across a spectrum of <25% up to 65% LVEF, therefore rendering it the first effective drug treatment for the broad majority of patients suffering from HFpEF, even in the absence of diabetes. It loses its effectiveness in cases of ≥ 65% LVEF. [4], [64], [65]
+As HFpEF has a plethora of pathomechanisms, there might be a possibility to discover more specific treatments for each prevailing HFpEF phenotype. As diagnosis and phenotype distinction increases in effectiveness, this might be a feasible field of research in the future. [47], [48], [53], [66], [67], [68]
+In many cases, pharmaceutical therapy is the first and most important line of HF treatment. Nonetheless, lifestyle modifications, if implemented correctly and long-term, may provide an effective way to reduce burden of disease of HF patients, regardless of HF sub-type. However, this option is not always available, because the right conditions must be present. A good example for the effectiveness of lifestyle changes can be examined by looking at the “Global Hypertension Practice Guidelines”, where the International Society of Hypertension is recommending lifestyle modifications as the first line therapy in patients with high blood pressure. [69], [70], [71], [72], [73]
+While some studies reported unambiguous findings, in a considerable part due to a low therapy adherence, there is evidence, that lifestyle modifications, especially exercise training may have a big benefit for HFpEF patients. These modifications may both improve symptoms and signs of HFpEF, but also alter the course of the disease. Anticipated positive effects, when adhering to adequate lifestyle changes, include prevention of CV events, postponement of HF development and progression, reduction of hypertension, improvements in quality of life (QoL) and health related QoL, as well as an improved exercise capability. One meta-analysis demonstrated that these benefits appear not to be related to significant changes in diastolic or systolic function, but through other mechanisms. The most significant adjustments besides exercise training seem to be reduction of body weight, a healthier nutrition, and sodium restriction. [69], [70], [71], [72], [73]
+ 
+1.7.	Diagnosis
+
+
+The “EMPEROR-Preserved” trial was the first phase III drug trial so far, that showed a statistically significant improvement in outcome in HFpEF cases. In order for these patients to be able to receive the newly available treatment, they need to be diagnosed as early and as precisely as possible, which often proves to be a challenge in the syndrome of HFpEF. [45], [65], [74]
+The current ESC guidelines state the following findings as indicating towards a diagnosis of HF and therefore recommend to perform the following examinations: [2]
+•	Clinical examination: presence of symptoms and/or signs
+•	Medical history: history of CVD and present CV risk factors
+•	Electrocardiogram: Abnormal findings
+•	Blood screening:
+o	Abnormal natriuretic peptide levels
+o	Other abnormal biomarkers (to exclude differential diagnoses)
+•	Chest X-ray: Abnormal findings (especially cardiomegaly, pleural effusion, and pulmonary congestion)
+•	Echocardiogram: Abnormal findings (mostly to confirm diagnosis)
+Moreover, these ESC guidelines, as well as the latest AHA guidelines, require, additionally to an LVEF ≥ 50%, and symptoms and/or signs of HF, an objective evidence of elevated LV filling pressures to classify a case of HF as HFpEF. [2], [63], [75]
+At rest, patients with HFpEF often times present themselves without any, or with only insignificant and unspecific symptoms and/or signs of HF, e.g., congestion resulting in ankle swelling, or fatigue. Even at exertion, frequently, the only clinically observable manifestation is dyspnea, which can be attributed to a multitude of causes in various organ systems. It is important exclude differential diagnoses, whose symptoms can be confused with HFpEF symptoms, e.g. anaemia or lung disease. [76]
+As not only symptoms and/or signs, but also elevated diastolic pressures may only occur at exertion, many examinations fail to identify these changes when performed on a patient at rest. To reveal these important but occult alterations, stress tests take an important role in the diagnosis of HFpEF. Currently, the gold-standard for making a HFpEF diagnosis is invasive diastolic testing using right-heart catheterization. In case of inconclusiveness of this investigation, invasive diastolic stress testing is recommended. [76], [77]
+As an alternative, research regarding non-invasive stress testing using echocardiography is in progress and may be a promising substitute. At the moment, the main challenges regarding this method are a big interobserver variability and therefore , poor infrastructural conditions and a lacking evidence base. [76], [77]
+Due to the costs, availability and the measurable risk associated with right-heart catheterization, it is not a suitable screening examination in all suspected cases of HFpEF. Therefore, a pretest probability is desirable, to distinguish cases in which the effort and risk will presumably be surpassed by the diagnostic value. [78]
+ 
+1.8.	Scores
+
+As there are costs, efforts and risks associated with right-heart catheterization, it is desirable to be able to distinguish cases, which will likely profit from the investigation, in advance. This can be done by the calculation of a pretest probability. In the last few years, two clinical scores with the aim of simplifying HFpEF diagnosis have been developed. [78], [79]
+In 2018, a paper written by Reddy et al. was published in the AHA journal “Circulation”, presenting their H2FPEF score. This score was created by retrospectively evaluating a population of patients who underwent invasive haemodynamic exercise testing to evaluate their unexplained dyspnea and thus were diagnosed with HFpEF. Using logical regression, a scoring system including a mix of medical history, clinical findings and resting echocardiographic parameters was developed. Notably, this score is not influenced by natriuretic peptides and attributes a multitude of points for the presence of AF. The resulting score can be used as a prediction for the presence of HFpEF in patients with unexplained exertional dyspnea, as seen in the following figure: [78]
+
+About a year later, the ESC introduced another score called HFA-PEFF. It is a stepwise diagnostic algorithm, starting with a pretest assessment which can handily be used in an ambulant setting, followed by increasingly more specific examinations, if needed. It was composed by expert consensus of leading researchers and is displayed figure 371234: [79]
+Both scores each classify patients into one of the three score ranges “low”, “intermediate”, or “high”. In cases with a low score, a diagnosis of HFpEF may be ruled out with reasonably high confidence, while a high score can be seen as a confirmation of a suspected HFpEF diagnosis. Patients attaining an intermediate score should undergo more testing to solidify or refute the diagnosis, especially invasively haemodynamic exercise testing, the current gold-standard diagnostic examination. [78], [79]
+As these scores are relatively new, the number of publications concerning them is still limited. In addition to presenting the H2FPEF score, its creators conducted a study including 100 patients to validate their newly diagnostic approach. The HFA-PEFF score was originally assessed in two patient cohorts, one from Europe (Maastricht-cohort) and one from the USA (Chicago cohort). These evaluations each showed a relatively good and reliable performance. [78], [80]
+Many of the studies investigating the two scores up to date have limitations, like relying on clinical evaluation and expert consensus for the HFpEF diagnosis instead of using objective thresholds and therefore introducing bias. Even though most studies agree on the scores appearing to being useful and accurate enough to use in clinical practice, results are mixed. The H2FPEF and HFA-PEFF scores may differ in performance when compared to each other, as one study published in the European Journal of Heart Failure demonstrated. The authors of the publication identified that patients were classified into different likelihood categories in 41% of all cases, when evaluated by both the H2FPEF and the HFA-PEFF score. Score performance seems to be dependent on geographic parameters as well, as the H2FPEF score seems to perform worse in Japanese populations in comparison to subjects from Western Europe and the USA. More research, desirably with unambiguous HFpEF diagnoses confirmed by right heart catheterization, is needed to better evaluate and validate both scores. [78], [80], [81], [82], [83], [84], [85]
+In addition to diagnostic properties, both the H2FPEF and the HFA-PEFF score were shown to have some prognostic power as well, but there is even less research on this aspect yet. [86], [87], [88]
+ 
+2.	References
+
+[1]	B. Bozkurt et al., ‘Universal definition and classification of heart failure: a report of the Heart Failure Society of America, Heart Failure Association of the European Society of Cardiology, Japanese Heart Failure Society and Writing Committee of the Universal Definition of Heart Failure: Endorsed by the Canadian Heart Failure Society, Heart Failure Association of India, Cardiac Society of Australia and New Zealand, and Chinese Heart Failure Association’, Eur. J. Heart Fail., vol. 23, no. 3, pp. 352–380, Mar. 2021, doi: 10.1002/ejhf.2115.
+[2]	T. A. McDonagh et al., ‘2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure’, Eur. Heart J., vol. 42, no. 36, pp. 3599–3726, Sep. 2021, doi: 10.1093/eurheartj/ehab368.
+[3]	F. Triposkiadis et al., ‘The continuous heart failure spectrum: moving beyond an ejection fraction classification’, Eur. Heart J., vol. 40, no. 26, pp. 2155–2163, Jul. 2019, doi: 10.1093/eurheartj/ehz158.
+[4]	M. Packer et al., ‘Effect of Empagliflozin on Worsening Heart Failure Events in Patients With Heart Failure and Preserved Ejection Fraction: EMPEROR-Preserved Trial’, Circulation, vol. 144, no. 16, pp. 1284–1294, Oct. 2021, doi: 10.1161/CIRCULATIONAHA.121.056824.
+[5]	B. A. Borlaug, ‘Defining HFpEF: where do we draw the line?’, Eur. Heart J., vol. 37, no. 5, pp. 463–465, Feb. 2016, doi: 10.1093/eurheartj/ehv561.
+[6]	G. Savarese, D. Stolfo, G. Sinagra, and L. H. Lund, ‘Heart failure with mid-range or mildly reduced ejection fraction’, Nat. Rev. Cardiol., vol. 19, no. 2, pp. 100–116, Feb. 2022, doi: 10.1038/s41569-021-00605-5.
+[7]	C. Caraballo et al., ‘Clinical Implications of the New York Heart Association Classification’, J. Am. Heart Assoc., vol. 8, no. 23, p. e014240, Dec. 2019, doi: 10.1161/JAHA.119.014240.
+[8]	G. Savarese, P. M. Becher, L. H. Lund, P. Seferovic, G. M. C. Rosano, and A. Coats, ‘Global burden of heart failure: A comprehensive and updated review of epidemiology’, Cardiovasc. Res., p. cvac013, Feb. 2022, doi: 10.1093/cvr/cvac013.
+[9]	M. D. Huffman et al., ‘Lifetime risk for heart failure among white and black Americans: cardiovascular lifetime risk pooling project’, J. Am. Coll. Cardiol., vol. 61, no. 14, pp. 1510–1517, Apr. 2013, doi: 10.1016/j.jacc.2013.01.022.
+[10]	N. L. Bragazzi et al., ‘Burden of heart failure and underlying causes in 195 countries and territories from 1990 to 2017’, Eur. J. Prev. Cardiol., vol. 28, no. 15, pp. 1682–1690, Dec. 2021, doi: 10.1093/eurjpc/zwaa147.
+[11]	P. M. Seferović et al., ‘The Heart Failure Association Atlas: Heart Failure Epidemiology and Management Statistics 2019’, Eur. J. Heart Fail., vol. 23, no. 6, pp. 906–914, Jun. 2021, doi: 10.1002/ejhf.2143.
+[12]	C. W. Tsao et al., ‘Heart Disease and Stroke Statistics-2023 Update: A Report From the American Heart Association’, Circulation, vol. 147, no. 8, pp. e93–e621, Feb. 2023, doi: 10.1161/CIR.0000000000001123.
+[13]	P. M. Seferović et al., ‘The Heart Failure Association Atlas: rationale, objectives, and methods’, Eur. J. Heart Fail., vol. 22, no. 4, pp. 638–645, Apr. 2020, doi: 10.1002/ejhf.1768.
+[14]	C. Fonseca, D. Brás, I. Araújo, and F. Ceia, ‘Heart failure in numbers: Estimates for the 21st century in Portugal’, Rev. Port. Cardiol., vol. 37, no. 2, pp. 97–104, Feb. 2018, doi: 10.1016/j.repc.2017.11.010.
+[15]	N. Conrad et al., ‘Temporal trends and patterns in heart failure incidence: a population-based study of 4 million individuals’, Lancet Lond. Engl., vol. 391, no. 10120, pp. 572–580, Feb. 2018, doi: 10.1016/S0140-6736(17)32520-5.
+[16]	P. Joseph et al., ‘A multinational registry to study the characteristics and outcomes of heart failure patients: The global congestive heart failure (G-CHF) registry’, Am. Heart J., vol. 227, pp. 56–63, Sep. 2020, doi: 10.1016/j.ahj.2020.06.002.
+[17]	T. E. Owan, D. O. Hodge, R. M. Herges, S. J. Jacobsen, V. L. Roger, and M. M. Redfield, ‘Trends in prevalence and outcome of heart failure with preserved ejection fraction’, N. Engl. J. Med., vol. 355, no. 3, pp. 251–259, Jul. 2006, doi: 10.1056/NEJMoa052256.
+[18]	B. A. Steinberg et al., ‘Trends in patients hospitalized with heart failure and preserved left ventricular ejection fraction: prevalence, therapies, and outcomes’, Circulation, vol. 126, no. 1, pp. 65–75, Jul. 2012, doi: 10.1161/CIRCULATIONAHA.111.080770.
+[19]	G. Savarese and L. H. Lund, ‘Global Public Health Burden of Heart Failure’, Card. Fail. Rev., vol. 3, no. 1, pp. 7–11, Apr. 2017, doi: 10.15420/cfr.2016:25:2.
+[20]	H. Bahrami et al., ‘Differences in the incidence of congestive heart failure by ethnicity: the multi-ethnic study of atherosclerosis’, Arch. Intern. Med., vol. 168, no. 19, pp. 2138–2145, Oct. 2008, doi: 10.1001/archinte.168.19.2138.
+[21]	Y. Gerber et al., ‘A contemporary appraisal of the heart failure epidemic in Olmsted County, Minnesota, 2000 to 2010’, JAMA Intern. Med., vol. 175, no. 6, pp. 996–1004, Jun. 2015, doi: 10.1001/jamainternmed.2015.0924.
+[22]	C. W. Tsao et al., ‘Temporal Trends in the Incidence of and Mortality Associated With Heart Failure With Preserved and Reduced Ejection Fraction’, JACC Heart Fail., vol. 6, no. 8, pp. 678–685, Aug. 2018, doi: 10.1016/j.jchf.2018.03.006.
+[23]	M. Anguita Sánchez et al., ‘Prevalence of heart failure in the Spanish general population aged over 45 years. The PRICE Study’, Rev. Esp. Cardiol., vol. 61, no. 10, pp. 1041–1049, Oct. 2008, doi: 10.1016/s1885-5857(09)60007-4.
+[24]	J. E. Ho et al., ‘Predicting Heart Failure With Preserved and Reduced Ejection Fraction: The International Collaboration on Heart Failure Subtypes’, Circ. Heart Fail., vol. 9, no. 6, p. 10.1161/CIRCHEARTFAILURE.115.003116 e003116, Jun. 2016, doi: 10.1161/CIRCHEARTFAILURE.115.003116.
+[25]	F. Ceia et al., ‘Prevalence of chronic heart failure in Southwestern Europe: the EPICA study’, Eur. J. Heart Fail., vol. 4, no. 4, pp. 531–539, Aug. 2002, doi: 10.1016/s1388-9842(02)00034-x.
+[26]	World Health Organisation, ‘The top 10 causes of death’. Dec. 09, 2020. Accessed: Jan. 12, 2023. [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+[27]	K. S. Shah et al., ‘Heart Failure With Preserved, Borderline, and Reduced Ejection Fraction: 5-Year Outcomes’, J. Am. Coll. Cardiol., vol. 70, no. 20, pp. 2476–2486, Nov. 2017, doi: 10.1016/j.jacc.2017.08.074.
+[28]	M. G. Crespo-Leiro et al., ‘European Society of Cardiology Heart Failure Long-Term Registry (ESC-HF-LT): 1-year follow-up outcomes and differences across regions’, Eur. J. Heart Fail., vol. 18, no. 6, pp. 613–625, Jun. 2016, doi: 10.1002/ejhf.566.
+[29]	Meta-analysis Global Group in Chronic Heart Failure (MAGGIC), ‘The survival of patients with heart failure with preserved or reduced left ventricular ejection fraction: an individual patient data meta-analysis’, Eur. Heart J., vol. 33, no. 14, pp. 1750–1757, Jul. 2012, doi: 10.1093/eurheartj/ehr254.
+[30]	O. Chioncel et al., ‘Epidemiology and one-year outcomes in patients with chronic heart failure and preserved, mid-range and reduced ejection fraction: an analysis of the ESC Heart Failure Long-Term Registry’, Eur. J. Heart Fail., vol. 19, no. 12, pp. 1574–1585, Dec. 2017, doi: 10.1002/ejhf.813.
+[31]	N. R. Jones, A. K. Roalfe, I. Adoki, F. D. R. Hobbs, and C. J. Taylor, ‘Survival of patients with chronic heart failure in the community: a systematic review and meta-analysis’, Eur. J. Heart Fail., vol. 21, no. 11, pp. 1306–1325, Nov. 2019, doi: 10.1002/ejhf.1594.
+[32]	N. Conrad et al., ‘Temporal Trends and Patterns in Mortality After Incident Heart Failure: A Longitudinal Analysis of 86 000 Individuals’, JAMA Cardiol., vol. 4, no. 11, pp. 1102–1111, Nov. 2019, doi: 10.1001/jamacardio.2019.3593.
+[33]	R. K. Cheng et al., ‘Outcomes in patients with heart failure with preserved, borderline, and reduced ejection fraction in the Medicare population’, Am. Heart J., vol. 168, no. 5, pp. 721–730, Nov. 2014, doi: 10.1016/j.ahj.2014.07.008.
+[34]	A. Groenewegen, F. H. Rutten, A. Mosterd, and A. W. Hoes, ‘Epidemiology of heart failure’, Eur. J. Heart Fail., vol. 22, no. 8, pp. 1342–1356, Aug. 2020, doi: 10.1002/ejhf.1858.
+[35]	C. Withaar, C. S. P. Lam, G. G. Schiattarella, R. A. de Boer, and L. M. G. Meems, ‘Heart failure with preserved ejection fraction in humans and mice: embracing clinical complexity in mouse models’, Eur. Heart J., vol. 42, no. 43, pp. 4420–4430, Nov. 2021, doi: 10.1093/eurheartj/ehab389.
+[36]	N. Nair, ‘Epidemiology and pathogenesis of heart failure with preserved ejection fraction’, Rev. Cardiovasc. Med., vol. 21, no. 4, pp. 531–540, Dec. 2020, doi: 10.31083/j.rcm.2020.04.154.
+[37]	M. G. Del Buono, F. Moroni, R. A. Montone, L. Azzalini, T. Sanna, and A. Abbate, ‘Ischemic Cardiomyopathy and Heart Failure After Acute Myocardial Infarction’, Curr. Cardiol. Rep., vol. 24, no. 10, pp. 1505–1515, Oct. 2022, doi: 10.1007/s11886-022-01766-6.
+[38]	L. Kapelusznik et al., ‘Chagas disease in Latin American immigrants with dilated cardiomyopathy in New York City’, Clin. Infect. Dis. Off. Publ. Infect. Dis. Soc. Am., vol. 57, no. 1, p. e7, Jul. 2013, doi: 10.1093/cid/cit199.
+[39]	O. Vedin et al., ‘Significance of Ischemic Heart Disease in Patients With Heart Failure and Preserved, Midrange, and Reduced Ejection Fraction: A Nationwide Cohort Study’, Circ. Heart Fail., vol. 10, no. 6, p. e003875, Jun. 2017, doi: 10.1161/CIRCHEARTFAILURE.117.003875.
+[40]	W. J. Paulus and C. Tschöpe, ‘A novel paradigm for heart failure with preserved ejection fraction: comorbidities drive myocardial dysfunction and remodeling through coronary microvascular endothelial inflammation’, J. Am. Coll. Cardiol., vol. 62, no. 4, pp. 263–271, Jul. 2013, doi: 10.1016/j.jacc.2013.02.092.
+[41]	T. P. Olson, M. J. Joyner, J. H. Eisenach, T. B. Curry, and B. D. Johnson, ‘Influence of locomotor muscle afferent inhibition on the ventilatory response to exercise in heart failure’, Exp. Physiol., vol. 99, no. 2, pp. 414–426, Feb. 2014, doi: 10.1113/expphysiol.2013.075937.
+[42]	V. R. Taqueti et al., ‘Coronary microvascular dysfunction and future risk of heart failure with preserved ejection fraction’, Eur. Heart J., vol. 39, no. 10, pp. 840–849, Mar. 2018, doi: 10.1093/eurheartj/ehx721.
+[43]	S. J. Shah et al., ‘Prevalence and correlates of coronary microvascular dysfunction in heart failure with preserved ejection fraction: PROMIS-HFpEF’, Eur. Heart J., vol. 39, no. 37, pp. 3439–3450, Oct. 2018, doi: 10.1093/eurheartj/ehy531.
+[44]	S. Rosenkranz, L. S. Howard, M. Gomberg-Maitland, and M. M. Hoeper, ‘Systemic Consequences of Pulmonary Hypertension and Right-Sided Heart Failure’, Circulation, vol. 141, no. 8, pp. 678–693, Feb. 2020, doi: 10.1161/CIRCULATIONAHA.116.022362.
+[45]	Y. N. V. Reddy and B. A. Borlaug, ‘Heart Failure With Preserved Ejection Fraction’, Curr. Probl. Cardiol., vol. 41, no. 4, pp. 145–188, Apr. 2016, doi: 10.1016/j.cpcardiol.2015.12.002.
+[46]	B. A. Borlaug and W. J. Paulus, ‘Heart failure with preserved ejection fraction: pathophysiology, diagnosis, and treatment’, Eur. Heart J., vol. 32, no. 6, pp. 670–679, Mar. 2011, doi: 10.1093/eurheartj/ehq426.
+[47]	C. Ma, H. Luo, L. Fan, X. Liu, and C. Gao, ‘Heart failure with preserved ejection fraction: an update on pathophysiology, diagnosis, treatment, and prognosis’, Braz. J. Med. Biol. Res. Rev. Bras. Pesqui. Medicas E Biol., vol. 53, no. 7, p. e9646, 2020, doi: 10.1590/1414-431X20209646.
+[48]	M. A. Pfeffer, A. M. Shah, and B. A. Borlaug, ‘Heart Failure With Preserved Ejection Fraction In Perspective’, Circ. Res., vol. 124, no. 11, pp. 1598–1617, May 2019, doi: 10.1161/CIRCRESAHA.119.313572.
+[49]	M. Obokata, Y. N. V. Reddy, and B. A. Borlaug, ‘Diastolic Dysfunction and Heart Failure With Preserved Ejection Fraction: Understanding Mechanisms by Using Noninvasive Methods’, JACC Cardiovasc. Imaging, vol. 13, no. 1 Pt 2, pp. 245–257, Jan. 2020, doi: 10.1016/j.jcmg.2018.12.034.
+[50]	J. P. Morgan, R. E. Erny, P. D. Allen, W. Grossman, and J. K. Gwathmey, ‘Abnormal intracellular calcium handling, a major cause of systolic and diastolic dysfunction in ventricular myocardium from patients with heart failure’, Circulation, vol. 81, no. 2 Suppl, pp. III21-32, Feb. 1990.
+[51]	B. A. Borlaug et al., ‘Global cardiovascular reserve dysfunction in heart failure with preserved ejection fraction’, J. Am. Coll. Cardiol., vol. 56, no. 11, pp. 845–854, Sep. 2010, doi: 10.1016/j.jacc.2010.03.077.
+[52]	V. Melenovsky et al., ‘Cardiovascular features of heart failure with preserved ejection fraction versus nonfailing hypertensive left ventricular hypertrophy in the urban Baltimore community: the role of atrial remodeling/dysfunction’, J. Am. Coll. Cardiol., vol. 49, no. 2, pp. 198–207, Jan. 2007, doi: 10.1016/j.jacc.2006.08.050.
+[53]	C. S. P. Lam, A. A. Voors, R. A. de Boer, S. D. Solomon, and D. J. van Veldhuisen, ‘Heart failure with preserved ejection fraction: from mechanisms to therapies’, Eur. Heart J., vol. 39, no. 30, pp. 2780–2792, Aug. 2018, doi: 10.1093/eurheartj/ehy301.
+[54]	Y. N. V. Reddy et al., ‘Arterial Stiffening With Exercise in Patients With Heart Failure and Preserved Ejection Fraction’, J. Am. Coll. Cardiol., vol. 70, no. 2, pp. 136–148, Jul. 2017, doi: 10.1016/j.jacc.2017.05.029.
+[55]	B. A. Borlaug, C. S. P. Lam, V. L. Roger, R. J. Rodeheffer, and M. M. Redfield, ‘Contractility and ventricular systolic stiffening in hypertensive heart disease insights into the pathogenesis of heart failure with preserved ejection fraction’, J. Am. Coll. Cardiol., vol. 54, no. 5, pp. 410–418, Jul. 2009, doi: 10.1016/j.jacc.2009.05.013.
+[56]	G. P. Aurigemma, K. H. Silver, M. A. Priest, and W. H. Gaasch, ‘Geometric changes allow normal ejection fraction despite depressed myocardial shortening in hypertensive left ventricular hypertrophy’, J. Am. Coll. Cardiol., vol. 26, no. 1, pp. 195–202, Jul. 1995, doi: 10.1016/0735-1097(95)00153-q.
+[57]	B. A. Borlaug and D. A. Kass, ‘Ventricular-vascular interaction in heart failure’, Heart Fail. Clin., vol. 4, no. 1, pp. 23–36, Jan. 2008, doi: 10.1016/j.hfc.2007.10.001.
+[58]	B. P. Shapiro et al., ‘Acute and chronic ventricular-arterial coupling in systole and diastole: insights from an elderly hypertensive model’, Hypertens. Dallas Tex 1979, vol. 50, no. 3, pp. 503–511, Sep. 2007, doi: 10.1161/HYPERTENSIONAHA.107.090092.
+[59]	M. Obokata, Y. N. V. Reddy, S. V. Pislaru, V. Melenovsky, and B. A. Borlaug, ‘Evidence Supporting the Existence of a Distinct Obese Phenotype of Heart Failure With Preserved Ejection Fraction’, Circulation, vol. 136, no. 1, pp. 6–19, Jul. 2017, doi: 10.1161/CIRCULATIONAHA.116.026807.
+[60]	P. R. Kalra, C. Anagnostopoulos, A. P. Bolger, A. J. S. Coats, and S. D. Anker, ‘The regulation and measurement of plasma volume in heart failure’, J. Am. Coll. Cardiol., vol. 39, no. 12, pp. 1901–1908, Jun. 2002, doi: 10.1016/s0735-1097(02)01903-4.
+[61]	M. Packer, F. Zannad, and S. D. Anker, ‘Heart Failure and a Preserved Ejection Fraction: A Side-by-Side Examination of the PARAGON-HF and EMPEROR-Preserved Trials’, Circulation, vol. 144, no. 15, pp. 1193–1195, Oct. 2021, doi: 10.1161/CIRCULATIONAHA.121.056657.
+[62]	J. Butler et al., ‘Empagliflozin, Health Status, and Quality of Life in Patients With Heart Failure and Preserved Ejection Fraction: The EMPEROR-Preserved Trial’, Circulation, vol. 145, no. 3, pp. 184–193, Jan. 2022, doi: 10.1161/CIRCULATIONAHA.121.057812.
+[63]	P. A. Heidenreich et al., ‘2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: Executive Summary: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines’, Circulation, vol. 145, no. 18, pp. e876–e894, May 2022, doi: 10.1161/CIR.0000000000001062.
+[64]	J. Butler et al., ‘Effect of empagliflozin in patients with heart failure across the spectrum of left ventricular ejection fraction’, Eur. Heart J., vol. 43, no. 5, pp. 416–426, Feb. 2022, doi: 10.1093/eurheartj/ehab798.
+[65]	S. D. Anker et al., ‘Empagliflozin in Heart Failure with a Preserved Ejection Fraction’, N. Engl. J. Med., vol. 385, no. 16, pp. 1451–1461, Oct. 2021, doi: 10.1056/NEJMoa2107038.
+[66]	M. Senni et al., ‘New strategies for heart failure with preserved ejection fraction: the importance of targeted therapies for heart failure phenotypes’, Eur. Heart J., vol. 35, no. 40, pp. 2797–2815, Oct. 2014, doi: 10.1093/eurheartj/ehu204.
+[67]	M. W. Segar et al., ‘Phenomapping of patients with heart failure with preserved ejection fraction using machine learning-based unsupervised cluster analysis’, Eur. J. Heart Fail., vol. 22, no. 1, pp. 148–158, Jan. 2020, doi: 10.1002/ejhf.1621.
+[68]	D. P. Kao et al., ‘Characterization of subgroups of heart failure patients with preserved ejection fraction with possible implications for prognosis and treatment response’, Eur. J. Heart Fail., vol. 17, no. 9, pp. 925–935, Sep. 2015, doi: 10.1002/ejhf.327.
+[69]	T. Unger et al., ‘2020 International Society of Hypertension Global Hypertension Practice Guidelines’, Hypertens. Dallas Tex 1979, vol. 75, no. 6, pp. 1334–1357, Jun. 2020, doi: 10.1161/HYPERTENSIONAHA.120.15026.
+[70]	M. Aggarwal et al., ‘Lifestyle Modifications for Preventing and Treating Heart Failure’, J. Am. Coll. Cardiol., vol. 72, no. 19, pp. 2391–2405, Nov. 2018, doi: 10.1016/j.jacc.2018.08.2160.
+[71]	R. S. Taylor et al., ‘Impact of Exercise Rehabilitation on Exercise Capacity and Quality-of-Life in Heart Failure: Individual Participant Meta-Analysis’, J. Am. Coll. Cardiol., vol. 73, no. 12, pp. 1430–1443, Apr. 2019, doi: 10.1016/j.jacc.2018.12.072.
+[72]	N. Luo et al., ‘Exercise Training in Patients With Chronic Heart Failure and Atrial Fibrillation’, J. Am. Coll. Cardiol., vol. 69, no. 13, pp. 1683–1691, Apr. 2017, doi: 10.1016/j.jacc.2017.01.032.
+[73]	M. G. Del Buono et al., ‘Heart failure with preserved ejection fraction diagnosis and treatment: An updated review of the evidence’, Prog. Cardiovasc. Dis., vol. 63, no. 5, pp. 570–584, 2020, doi: 10.1016/j.pcad.2020.04.011.
+[74]	P. P. Toth and D. Gauthier, ‘Heart failure with preserved ejection fraction: strategies for disease management and emerging therapeutic approaches’, Postgrad. Med., vol. 133, no. 2, pp. 125–139, Mar. 2021, doi: 10.1080/00325481.2020.1842620.
+[75]	P. A. Heidenreich et al., ‘2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines’, Circulation, vol. 145, no. 18, pp. e895–e1032, May 2022, doi: 10.1161/CIR.0000000000001063.
+[76]	J.-W. Ha, O. S. Andersen, and O. A. Smiseth, ‘Diastolic Stress Test: Invasive and Noninvasive Testing’, JACC Cardiovasc. Imaging, vol. 13, no. 1 Pt 2, pp. 272–282, Jan. 2020, doi: 10.1016/j.jcmg.2019.01.037.
+[77]	M. Obokata, G. C. Kane, Y. N. V. Reddy, T. P. Olson, V. Melenovsky, and B. A. Borlaug, ‘Role of Diastolic Stress Testing in the Evaluation for Heart Failure With Preserved Ejection Fraction: A Simultaneous Invasive-Echocardiographic Study’, Circulation, vol. 135, no. 9, pp. 825–838, Feb. 2017, doi: 10.1161/CIRCULATIONAHA.116.024822.
+[78]	Y. N. V. Reddy, R. E. Carter, M. Obokata, M. M. Redfield, and B. A. Borlaug, ‘A Simple, Evidence-Based Approach to Help Guide Diagnosis of Heart Failure With Preserved Ejection Fraction’, Circulation, vol. 138, no. 9, pp. 861–870, Aug. 2018, doi: 10.1161/CIRCULATIONAHA.118.034646.
+[79]	B. Pieske et al., ‘How to diagnose heart failure with preserved ejection fraction: the HFA-PEFF diagnostic algorithm: a consensus recommendation from the Heart Failure Association (HFA) of the European Society of Cardiology (ESC)’, Eur. Heart J., vol. 40, no. 40, pp. 3297–3317, Oct. 2019, doi: 10.1093/eurheartj/ehz641.
+[80]	A. Barandiarán Aizpurua et al., ‘Validation of the HFA-PEFF score for the diagnosis of heart failure with preserved ejection fraction’, Eur. J. Heart Fail., vol. 22, no. 3, pp. 413–421, Mar. 2020, doi: 10.1002/ejhf.1614.
+[81]	P. L. Myhre, M. Vaduganathan, and S. J. Greene, ‘Diagnosing heart failure with preserved ejection fraction in 2019: the search for a gold standard’, Eur. J. Heart Fail., vol. 22, no. 3, pp. 422–424, 2020, doi: 10.1002/ejhf.1638.
+[82]	S. L. Kristensen and J. J. V. McMurray, ‘Diagnosing heart failure with preserved ejection fraction - what’s the score?’, Eur. J. Heart Fail., vol. 22, no. 3, pp. 425–427, Mar. 2020, doi: 10.1002/ejhf.1764.
+[83]	S. Sanders-van Wijk et al., ‘The HFA-PEFF and H2 FPEF scores largely disagree in classifying patients with suspected heart failure with preserved ejection fraction’, Eur. J. Heart Fail., vol. 23, no. 5, pp. 838–840, May 2021, doi: 10.1002/ejhf.2019.
+[84]	T. W. Churchill et al., ‘Evaluation of 2 Existing Diagnostic Scores for Heart Failure With Preserved Ejection Fraction Against a Comprehensively Phenotyped Cohort’, Circulation, vol. 143, no. 3, pp. 289–291, Jan. 2021, doi: 10.1161/CIRCULATIONAHA.120.050757.
+[85]	Y. N. V. Reddy et al., ‘Diagnosis of Heart Failure With Preserved Ejection Fraction Among Patients With Unexplained Dyspnea’, JAMA Cardiol., vol. 7, no. 9, pp. 891–899, Sep. 2022, doi: 10.1001/jamacardio.2022.1916.
+[86]	P. L. Myhre et al., ‘Application of the H2 FPEF score to a global clinical trial of patients with heart failure with preserved ejection fraction: the TOPCAT trial’, Eur. J. Heart Fail., vol. 21, no. 10, pp. 1288–1291, Oct. 2019, doi: 10.1002/ejhf.1542.
+[87]	V. Parcha et al., ‘Diagnostic and prognostic implications of heart failure with preserved ejection fraction scoring systems’, ESC Heart Fail., vol. 8, no. 3, pp. 2089–2102, Jun. 2021, doi: 10.1002/ehf2.13288.
+[88]	D. Hashemi et al., ‘Evaluation of the HFA-PEFF Score: results from the prospective DIAST-CHF cohort’, ESC Heart Fail., Sep. 2022, doi: 10.1002/ehf2.14131.
+
+ 
+3.	Table of figures
+
+Figure 1 - from McDonagh et al., 2021 (2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure)	- 10 -
+Figure 2 alternative(from Bozkurt et al, 2021 (Universal definition and classification of heart failure)	- 10 -
+Figure 3 - McDonagh, et al. 2021, (2021 ESC Guidelines for the diagnosis and treatment of acute and chonic heart failure)	- 12 -
+Figure 4 - Yancy et al., 2013 (2013 ACCF/AHA Guideline for the Management of Heart Failure)	- 12 -
+Figure 5 - Swedberg et at., 2005 (Guidelines for the diagnosis and treatment of chronic heart failure: executive summary (update 2005))	- 13 -
+Figure 6 - Savarese and Lung, 2017 (Global Public Health Burden of Heart Failure)	- 16 -
+Figure 7 - from "Characteristics, Outcomes, and Treatment of Heart Failure With Improved Ejection Fraction" - Park, Park, Mebazaa et al., 2019 – Korean population	- 20 -
+Figure 8 - Sanderson JE, et al. 2021 (Obstructive sleep apnoea, intermittent hypoxia	- 22 -
+Figure 9 - McDonaugh et al., "ESC Guidelines 2021 - Supplementary table"	- 29 -
+Figure 10 – from ESC Guidelines 2021 supplementory	- 29 -
+Figure 11 - H2FPEF Score, Reddy et al. (A Simple, Evidence-Based Approach to Help Guide Diagnosis of Heart Failure With Preserved Ejection Fraction)	- 35 -
+Figure 12- Pieske et al. (How to diagnose heart failure with preserved ejection fraction: the HFA-PEFF diagnostic algorithm a consensus recommendation from the Heart Failure Association (HFA) of the European Society of Cardiology (ESC)	- 36 -
+"""
