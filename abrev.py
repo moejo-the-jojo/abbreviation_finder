@@ -10,8 +10,6 @@ reg_pattern = re.compile(r"\w+")
 
 word_count = defaultdict(int)
 
-# print(word_count)
-
 for line in lines:
     for i in re.findall(reg_pattern, line):
         word_count[i.lower()] += 1
